@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "../data.json";
-import akhila from "../akhila.jpg"
+import akhila from "../akhila.jpg";
+
 
 function Resume(props){
 	let profile=data.details[props.location.personcard.id];
@@ -9,14 +10,19 @@ function Resume(props){
 		<section className="mainsection">
 		<section className="section1">
 		<img src={akhila} alt="akhila" className="profile" />
+		<div className="imginfo">
 		<h1>{profile.card.name}</h1>
 		<h4>{profile.card.email}</h4>
 		<h3>{profile.card.mobile}</h3>
+		<hr></hr>
+		<h5>Guntur,AndhraPradesh</h5>
+		</div>
 		</section>
 		<section className="section2">
-		<h1>Carrer Objective:</h1>
+		<h1 className="heading">Carrer Objective:</h1>
 		<h4>{profile.careerobjective.info1}</h4>
-		<h2>Educational Qualification</h2>
+		<br></br>
+		<h2 className="heading">Educational Qualification</h2>
 		<div className="tbl">
 		<table border="1">
 		<tr>
@@ -45,7 +51,8 @@ function Resume(props){
 		</tr>
 		</table>
 		</div>
-		<h1>Technical Skills:</h1>
+		<br></br>
+		<h1 className="heading">Technical Skills:</h1>
 		<h2>{profile.tech1.title}</h2>
 		<ul>
 		<li>{profile.tech1.info}</li>
