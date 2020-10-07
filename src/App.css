@@ -64,6 +64,10 @@ font-family: 'Ubuntu', sans-serif;*/
   border:solid;
   word-break: break-all;
 }
+.section1:hover{
+  background-color: #ffffe6;
+  box-shadow: 2px 2px 2px 2px black;
+}
 .section1>h1{
   padding-top: 10%;
 }
@@ -76,6 +80,12 @@ font-family: 'Ubuntu', sans-serif;*/
   word-break: break-all;
 
 }
+.section2:hover{
+  background-color: #ffffe6;
+  box-shadow: 2px 2px 2px 2px black;
+  
+}
+
 table{
   font-family: arial, sans-serif;
   border-collapse: collapse;
