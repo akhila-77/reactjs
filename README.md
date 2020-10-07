@@ -8,7 +8,7 @@ In the project directory, you can run:
 Install the dependencies in the local node_modules folder.
 
 ### `npm start`
-make sure that you have removed the package-lock.json or any other node modules after cloning the project
+make sure that you have removed the package-lock.json or any other node modules after cloning the project <br />
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
